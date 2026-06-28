@@ -1,0 +1,43 @@
+/*Dan Rojas*/
+/*Mod 4.2*/
+/*28-Jun-26*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #003049;
+    font-family: 'Verdana', sans-serif;
+}
+#center_ribbon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 66%;
+    background-color: #d62828;
+}
+#title_box {
+    display: flex;
+    justify-content: center;
+}
+#title {
+    padding: 10px;
+    color: #f77f00;
+}
+#table_box {
+    display: flex;
+    justify-content: center;
+}
+#books_table {
+    background-color: black;
+    border-radius: 5px;
+    border: 10px outset black;
+}
+th,td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #fcbf49;
+}
